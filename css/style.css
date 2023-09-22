@@ -220,4 +220,113 @@ a {
 }
 
 
-border-bottom: 1px solid #ececec;
+
+
+
+.container {
+    width: 1600px;
+    text-align: center
+    padding:100px;
+}
+
+.global-header {
+    border-bottom: 1px solid #ececec;
+}
+
+
+.global-header .main-navigation ul{
+    display: flex; 
+    width: 259px;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-container{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-container ul{
+    display: flex;
+    flex-direction: row;
+    margin: 514px;
+    justify-content: center;
+    align-items: center;
+    width: 516px;
+    gap: 8px;
+}
+
+.what-we-do ul{
+    display: flex;
+    flex-direction: row;
+    margin: 215px;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    gap: 30px;
+}
+
+.team ul{
+    display: flex;
+    flex-direction: row;
+    margin: 215px;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    gap: 30px;
+}
+
+.values{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1170px;
+  list-style: none;
+}
+
+.value-item {
+    margin-left: 215px;
+    margin-top: 215px;
+    flex-basis: calc((100% - 30px) / 4);
+}
+
+.solutions-for-business button {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 10px 19px 10px 20px;
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    margin-left: -215px;
+    margin-top: -215px;
+    margin-bottom: 345px;
+  }
+
+  .items {
+    margin-left: 215px;
+    margin-top: 215px;
+  }
+
+  .items {
+    flex-basis: calc((100% - 30px) / 3);
+  }
+
+  .address-container {
+    margin-left: 215px;
+  }
+

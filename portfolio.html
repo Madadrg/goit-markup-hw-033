@@ -13,18 +13,20 @@
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
    />
-   
+
      <link rel="stylesheet" href="css/style.css" />
    </head>
 
-<body>
+<body class="container">
   <header class="global-header">
     <a href="./logo.html"
     target="_blank">
 
+    <div class="nav-container">
     <span class="Web-header">Web</span>
     <span class="Studio-header">Studio</span>
     </a>
+
 
    <nav class="main-navigation">
     <ul>
@@ -35,26 +37,31 @@
    </nav>
   </header>
 
+  <div class="contacts-container">
    <nav class="contacts-header">
     <a href="mailto:info@devstudio.com">info@devstudio.com</a>
     <a href="tel:212-772-4150">212-772-4150</a>
   </nav>
+  </div>
+</div>
 
  <main class="projects">
  <section>
-
+    <div class="projects-container">
     <nav class="types-of-projects">
         <ul>
-            <li><button type="button">All</button></li>
-            <li><button type="button">Web-sites</button></li>
-            <li><button type="button">Apps</button></li>
-            <li><button type="button">Design</button></li>
-            <li><button type="button">Marketing</button></li>
+            <li><button type="button" class="buttons">All</button></li>
+            <li><button type="button" class="buttons">Web-sites</button></li>
+            <li><button type="button" class="buttons">Apps</button></li>
+            <li><button type="button" class="buttons">Design</button></li>
+            <li><button type="button" class="buttons">Marketing</button></li>
         </ul>
     </nav>
+    </div>
 
-        <ul>
-        <li>
+        <ul class="card-set">
+
+        <li class="items">
             <img src="images/portfolio1.jpg" alt="Technoduck" width="370" />
             <br />
             <span class="project-title">Technoduck</span>
@@ -62,7 +69,7 @@
             <span class="project-type">Web-site</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio2.jpg" alt="Poster New Orlean vs Golden Star" width="370"/>
             <br />
            <span class="project-title">Poster New Orlean vs Golden Star</span>
@@ -70,7 +77,7 @@
            <span class="project-type">Design</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio3.jpg" alt="Seafood Restaurant" width="370" />
             <br />
             <span class="project-title">Seafood Restaurant</span>
@@ -78,7 +85,7 @@
             <span class="project-type">Apps</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio4.jpg" alt="Project Prime" width="370" />
             <br />
             <span class="project-title">Project Prime</span>
@@ -86,7 +93,7 @@
             <span class="project-type">Marketing</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio5.jpg" alt="Project Boxes" width="370" />
             <br />
             <span class="project-title">Project Boxes</span>
@@ -94,7 +101,7 @@
             <span class="project-type">Apps</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370" />
             <br />
             <span class="project-title">Inspiration has no Borders</span>
@@ -102,7 +109,7 @@
             <span class="project-type">Web-site</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio7.jpg" alt="Limited Edition" width="370" />
             <br />
             <span class="project-title">Limited Edition</span>
@@ -110,7 +117,7 @@
             <span class="project-type">Design</span>
         </li>
        
-        <li>
+        <li class="items">
             <img src="./images/portfolio8.jpg" alt="Project LAB" width="370" />
             <br />
             <span class="project-title">Project LAB</span>
@@ -118,7 +125,7 @@
             <span class="project-type">Marketing</span>
         </li>
 
-        <li>
+        <li class="items">
             <img src="./images/portfolio9.jpg" alt="Growing Business" width="370" />
             <br />
             <span class="project-title">Business</span>
@@ -127,7 +134,7 @@
         </li>
        
            </ul>
-       
+        </div>
          </section>
          </main>
 
@@ -147,5 +154,6 @@
       </address>
 
    </footer>
+
   </body>
   </html>
