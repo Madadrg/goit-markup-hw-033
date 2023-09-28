@@ -1,10 +1,14 @@
+:root {
+    --highlight-color: #2196F3;
+}
+
 body {
     color:#212121;
     font-family: Roboto, sans-serif;
 }
 
 .current{
-    color: var(#2196F3);
+    color: var(--highlight-color);
 }
 
 ul {
@@ -128,7 +132,7 @@ p {
 
 .global-header .main-navigation a:hover,
 .global-header .main-navigation a:focus { 
-    color:#2196F3;
+    color:var(--highlight-color);
 }
 
 .contacts-header a {
@@ -232,10 +236,6 @@ color:#2196F3;
 a {
     text-decoration: none;
 }
-
-
-
-
 
 
 
