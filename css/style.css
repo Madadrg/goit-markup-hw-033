@@ -16,11 +16,10 @@ body {
         letter-spacing: 2%;
         text-decoration: none;
     }
-    
+
     .current {
         color: var(--highlight-color);
-        }
-        
+                }   
 
 
 ul {
