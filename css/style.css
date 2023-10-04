@@ -2,10 +2,6 @@
     --highlight-color: #2196F3;
 }
 
-.current {
-color: var(--highlight-color);
-}
-
 
 body {
     color:#212121;
@@ -13,8 +9,18 @@ body {
 }
 
 .nav-link {
-    color: #212121;
-}
+        color:#212121;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 2%;
+        text-decoration: none;
+    }
+    
+    .current {
+        color: var(--highlight-color);
+        }
+        
 
 
 ul {
@@ -128,14 +134,6 @@ p {
     letter-spacing: 3%;
 }
 
-.global-header .main-navigation a {
-    color:#212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 2%;
-    text-decoration: none;
-}
 
 .global-header .main-navigation a:hover,
 .global-header .main-navigation a:focus { 
