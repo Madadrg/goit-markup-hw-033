@@ -2,14 +2,20 @@
     --highlight-color: #2196F3;
 }
 
+.current {
+color: var(--highlight-color);
+}
+
+
 body {
     color:#212121;
     font-family: Roboto, sans-serif;
 }
 
-.current{
-    color: var(--highlight-color);
+.nav-link {
+    color: #212121;
 }
+
 
 ul {
     list-style-type: none;
@@ -36,6 +42,7 @@ ul {
     background-color:#1c8fee;
     text-shadow: 0px 4px 4px 0px #00000026;
 }
+
 
 .team {
     background-color:#F5F4FA;
